@@ -16,7 +16,6 @@ async function getData() {
     const users = require('./data');
     console.log(users);
     users.forEach(item => {
-        // console.log(item);
         renderUser(item);
     })
 
@@ -33,4 +32,4 @@ function renderUser(user) {
     box.append(infoUser);
     container.append(box);
 }
-console.log(777);
+console.log(888);
