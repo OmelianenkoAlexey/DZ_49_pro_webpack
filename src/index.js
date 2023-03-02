@@ -1,5 +1,3 @@
-// import axios from "axios";
-
 // ! ДЗ 49. Работа с webpack, git
 
 // 1) Создать проект на webpack, webpack-cli, webpack-dev-server по видео текущего урока.
@@ -10,7 +8,6 @@
 // 4) Создать репозиторий на git и выгрузить туда проект
 
 const container = document.getElementById("container");
-
 
 async function getData() {
     const users = require('./data');
@@ -32,4 +29,3 @@ function renderUser(user) {
     box.append(infoUser);
     container.append(box);
 }
-console.log(888);
