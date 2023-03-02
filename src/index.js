@@ -16,7 +16,7 @@ async function getData() {
         renderUser(item);
     })
 
-}
+};
 getData();
 
 function renderUser(user) {
@@ -28,4 +28,5 @@ function renderUser(user) {
 
     box.append(infoUser);
     container.append(box);
-}
+};
+
